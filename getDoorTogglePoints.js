@@ -1,9 +1,10 @@
 export default (door)=>{
+  const result = [1]
   if(door === 4){
-    return [1,2,4]
+    result.push(2,4)
   }
   if(door === 2 || door === 3){
-    return [1,door]
+    result.push(door)
   }
-  return [1]
+  return result
 }
