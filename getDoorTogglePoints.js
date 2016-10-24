@@ -5,7 +5,7 @@ export default (door)=>{
     result.push(candidate)
   }
   candidate++
-  if(door === 6){
+  if(door % candidate === 0 && door !== candidate){
     result.push(candidate)
   }
   if(door === 8){
