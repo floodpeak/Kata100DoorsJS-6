@@ -4,7 +4,8 @@ export default (door)=>{
     result.push(2)
   }
   if(door === 6){
-    result.push(2,3)
+    result.push(2)
+    result.push(3)
   }
   if(door > 1){
     result.push(door)
