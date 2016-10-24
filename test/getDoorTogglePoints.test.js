@@ -14,4 +14,7 @@ describe('door toggle points',()=>{
   it('should be [1,2,4] for door 4', ()=>{
     expect(getDoorTogglePoints(4)).to.be.eql([1,2,4])
   })
+  it('should be [1,2,3,6] for door 6', ()=>{
+    expect(getDoorTogglePoints(6)).to.be.eql([1,2,3,6])
+  })
 })
