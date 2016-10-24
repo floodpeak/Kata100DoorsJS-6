@@ -3,7 +3,7 @@ export default (door)=>{
   if(door === 4){
     result.push(2)
   }
-  if(door === 2 || door === 3 || door === 4){
+  if(door > 1){
     result.push(door)
   }
   return result
