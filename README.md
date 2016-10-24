@@ -1,0 +1,1 @@
+# Kata100DoorsJS-6
