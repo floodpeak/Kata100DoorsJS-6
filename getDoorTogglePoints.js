@@ -1,7 +1,8 @@
 export default (door)=>{
   const result = [1]
-  if(door % 2 === 0 && door !== 2){
-    result.push(2)
+  const candidate = 2
+  if(door % candidate === 0 && door !== candidate){
+    result.push(candidate)
   }
   if(door === 6){
     result.push(3)
